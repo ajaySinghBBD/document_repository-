@@ -12,5 +12,13 @@ Description:-
  &nbsp; that ripples into a sea of goodwill, one kettle at a time. Join us in the joy of giving, where every contribution adds to the comforting brew of community care.</p>
 
 <h3>🛠 Tech Stack</h3>
+
+- 💻 &nbsp; 
+&nbsp; <a href="https://twitter.com/mrlalitkumawat1" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/twitter.png" width="50" />FLYWAY</a>  
+- 🌐 &nbsp; Full-Stack | React | HTML | CSS | JavaScript | Bootstrap | Sass | Tailwind 
+- 🛢 &nbsp; MySQL | Firebase | Postman
+- 🔧 &nbsp; Google Collab | Jupyter | Visual Studio code  | Git
+- 🖥 &nbsp; Adobe Xd | Illustrator | Photoshop | Figma
+
  
   
