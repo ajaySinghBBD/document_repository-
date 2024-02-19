@@ -1,0 +1,29 @@
+name: Deploy RDS Instance
+
+on:
+  workflow_dispatch: # Manually triggered
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Install AWS CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y awscli
+          
+      - name: Deploy CloudFormation stack
+        run: |
+          aws cloudformation deploy \
+            --stack-name my-rds-stack \
+            --template-file path/to/your/template.yaml \
+            --parameter-overrides \
+              DBName=mydatabase \
+              DBUsername=admin \
+              DBPassword=your_password \
+            --region your_region \
+            --capabilities CAPABILITY_NAMED_IAM
